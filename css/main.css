@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 10%;
+}
+
+header h1{
+    text-align: center;
+    padding: 50px;
+    font-size: 3rem;
+}
+
+.acc-holder{
+    max-width: 15%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px  6px rgba(214, 208, 208, 0.72);
+}
+.balance-text{
+    margin: 30px 0;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.298);
+    border-radius: 20px;
+    max-width: 25%;
+}
+
+.tranjections{
+    border: 1px solid rgba(0, 0, 0, 0.298);
+    width: 26%;
+    min-height: 300px;
+    border-radius: 20px;
+}
+.recent-text{
+    text-align: center;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 20px 20px 0 0;
+    color: #fff;
+}
+
+#tran-list{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.dflex{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.273);
+}
+.refund-btn{
+    padding: 8px 25px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: #fff;
+    width: 100px;
+}
+.refund-btn:hover{
+    background-color: rgb(128, 70, 235);
+}
+.dhashboard{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.admin-area{
+    box-shadow: 0 3px 6px rgb(238, 232, 232);
+    width: 35%;
+    border-radius: 25px;
+}
+.bank-admin{
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 2px 2px  10px rgba(0, 0, 0, 0.083);
+    height: 50px;
+    line-height: 50px;
+    color: rgb(56, 88, 110);
+}
+#balance-input{
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border:1px solid rgba(0, 0, 0, 0.29);
+}
+.admin-area p{
+    text-align: center;
+}
+#balance-add{
+    padding: 8px 40px;
+    background: rgb(125, 0, 242);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+}
+#balance-add:disabled{
+    background-color: rgb(40, 99, 210);
+    cursor: not-allowed;
+    
+}
+#balance-add:hover{
+    background-color: rgb(128, 70, 235);
+}
+.this{
+    display: none;
+}
+
+.recent-texts{
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.184);
+    font-size: 1.5em;
+}
+.refund-recent button{
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    font-weight: bold;
+}

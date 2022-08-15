@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorib Bank</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="container">
+        <h1>Gorib Bank</h1>
+    </header>
+    <!-- account holder name section -->
+    <section class="container">
+        <div class="acc-holder">
+            <h4>Account Holder Name</h4>
+            <h1 style="font-size: 2em;">Ismail Hossen</h1>
+        </div>
+    </section>
+    <!-- account holder name section end -->
+    <main>
+        <!-- tranjection details  -->
+        <section class="container">
+            <div class="balance-text">
+                <h3>Account Balance is: <span id="restBalance">0</span></h3>
+            </div>
+            <div class="dhashboard">
+                <div class="tranjections">
+                    <h4 class="recent-text">Your Recent Tranjections</h4>
+                    <div id="tran-list">
+                    </div>
+                </div>
+                <div class="admin-area">
+                    <h2 class="bank-admin">Bank Admin</h2>
+                    <p>Enter Balance:  <input id="balance-input" type="text" placeholder="Enter More Then 50"></p> <br>
+                    <button disabled  id="balance-add">Add</button>
+                </div>
+            </div>
+            <div class="refund-recent">
+                <button id="refund-btn">Refund Last Tranjection</button>
+            </div>
+        </section>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>
